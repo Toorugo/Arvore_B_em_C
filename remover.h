@@ -3,6 +3,6 @@
 
 #include "criar.h"
 
-void remover_chave(Node* raiz, int chave);
+void remover_chave(Node*, int);
 
 #endif

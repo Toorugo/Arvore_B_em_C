@@ -7,6 +7,12 @@
 typedef struct Node Node;
 typedef struct key key;
 
+typedef struct posicao{
+    Node* no;
+    int chave;
+    int M_m;
+}posicao;
+
 struct key{
     int valor;
     Node *maior;
@@ -15,7 +21,7 @@ struct key{
 
 struct Node{
     key chaves[ordem-1];
-    Node *antecessor;
+    posicao antecessor;
     int qtd_chaves;
     int folha;
 };
