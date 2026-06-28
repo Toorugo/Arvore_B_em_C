@@ -16,6 +16,7 @@ struct key{
 struct Node{
     key chaves[ordem-1];
     Node *antecessor;
+    int qtd_chaves;
     int folha;
 };
 
